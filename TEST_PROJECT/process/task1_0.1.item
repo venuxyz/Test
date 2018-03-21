@@ -187,9 +187,11 @@
     </metadata>
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
-      <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
+      <varTables sizeState="INTERMEDIATE" name="Var">
+        <mapperTableEntries name="var1" expression="StringHandling.LEN(row1.email)-StringHandling.INDEX(row1.email,&quot;@&quot;) " type="id_Integer"/>
+      </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="email" expression="StringHandling.RIGHT(row1.email,StringHandling.LEN(row1.email)-StringHandling.INDEX(row1.email,&quot;@&quot;)) " type="id_String" nullable="true"/>
+        <mapperTableEntries name="email" expression="StringHandling.RIGHT(row1.email,Var.var1 ) " type="id_String" nullable="true"/>
         <mapperTableEntries name="age" expression="row1.age " type="id_Integer" nullable="true"/>
       </outputTables>
       <inputTables sizeState="INTERMEDIATE" name="row1" matchingMode="UNIQUE_MATCH" lookupMode="LOAD_ONCE">
