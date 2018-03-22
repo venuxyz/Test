@@ -312,7 +312,7 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var">
-        <mapperTableEntries name="var1" expression="StringHandling.RIGHT((row2.email,StringHandling.LEN(row2.email)-StringHandling.INDEX(row2.email,&quot;@&quot;))-1) " type="id_String"/>
+        <mapperTableEntries name="var1" expression="StringHandling.RIGHT((row2.email,(StringHandling.LEN(row2.email)-StringHandling.INDEX(row2.email,&quot;@&quot;))-1) " type="id_String"/>
       </varTables>
       <outputTables sizeState="INTERMEDIATE" name="out2">
         <mapperTableEntries name="email" expression="StringHandling.LEFT(Var.var1,1) " type="id_String" nullable="true"/>
