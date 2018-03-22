@@ -5,5 +5,5 @@
   <contextParameter xmi:id="_G2nmky32Eei6GciMGga7fw" comment="" name="db_server" prompt="db_server?" promptNeeded="false" type="id_String" value="localhost"/>
   <contextParameter xmi:id="_G2nmlC32Eei6GciMGga7fw" comment="" name="db_port" prompt="db_port?" promptNeeded="false" type="id_String" value="1521"/>
   <contextParameter xmi:id="_G2nmlS32Eei6GciMGga7fw" comment="" name="db_serviecename" prompt="db_serviecename?" promptNeeded="false" type="id_String" value="xe"/>
-  <contextParameter xmi:id="_G2nmli32Eei6GciMGga7fw" comment="" name="filelocation" prompt="filelocation?" promptNeeded="false" type="id_String" value=""/>
+  <contextParameter xmi:id="_G2nmli32Eei6GciMGga7fw" comment="" name="filelocation" prompt="filelocation?" promptNeeded="false" type="id_String" value="C:/Users/Venu/Desktop/venugopal/files for practice/12AM/employe.txt"/>
 </talendfile:ContextType>
