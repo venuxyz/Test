@@ -508,4 +508,5 @@
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_ICWEwikSEeiSDK3JA-gGgQ" login="admin@company.com" firstName="security" lastName="security" type="DI" additionnalData="{}"/>
   <TalendProperties:User xmi:id="_1wUiESkVEeiQFuSb1BUUPw" login="venu@company.com" firstName="venu" lastName="gopal" type="DI" additionnalData="{}"/>
+  <TalendProperties:User xmi:id="_3yxjYTMYEeiY0O5JOWM_fQ" login="COMPANY@TALEND.COM"/>
 </xmi:XMI>
