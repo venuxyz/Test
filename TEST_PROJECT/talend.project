@@ -201,6 +201,9 @@
       <relatedItems xmi:id="_kGaBezNPEei828Sj4Edk8Q" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_kGaBfDNPEei828Sj4Edk8Q" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_kGaBfTNPEei828Sj4Edk8Q" id="_PasAUDNPEei828Sj4Edk8Q - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_qX7X8DNREei828Sj4Edk8Q" id="_bOl2wDNQEei828Sj4Edk8Q" version="Latest" type="job"/>
+      <relatedItems xmi:id="_qX7X8TNREei828Sj4Edk8Q" id="_gExAIC3tEei6GciMGga7fw" version="Latest" type="property"/>
+      <relatedItems xmi:id="_qX7X8jNREei828Sj4Edk8Q" id="_gExAIC3tEei6GciMGga7fw - EMAIL" version="Latest" type="schema"/>
     </ItemsRelations>
     <migrationTask xmi:id="_I0c3ICkSEeiSDK3JA-gGgQ" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_I0c3ISkSEeiSDK3JA-gGgQ" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
