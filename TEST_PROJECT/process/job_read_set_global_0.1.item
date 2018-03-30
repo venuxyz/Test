@@ -115,7 +115,7 @@
       <elementValue elementRef="LIBPATH" value=""/>
       <elementValue elementRef="LIBPATH" value=""/>
     </elementParameter>
-    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="import JAXBContext;&#xA;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="&#xA;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="96">
