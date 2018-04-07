@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_waYvcDo9Eei99-VF_TfWEg" name="job_source_file" dataPackage="_waYvcTo9Eei99-VF_TfWEg" Server="Localhost 127.0.0.1" FilePath="C:/Users/Venu/Desktop/sourcefile (1).csv" Encoding="US-ASCII" FieldSeparatorValue="&quot;$&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_waYvcTo9Eei99-VF_TfWEg" name="default" dataManager="_waYvcDo9Eei99-VF_TfWEg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_waYvcjo9Eei99-VF_TfWEg" id="_PRZVUDo9Eei99-VF_TfWEg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvczo9Eei99-VF_TfWEg" label="Profit_Center" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvdDo9Eei99-VF_TfWEg" label="Product_Name" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvdTo9Eei99-VF_TfWEg" label="Contract_Type" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvdjo9Eei99-VF_TfWEg" label="Issue_Date" length="28" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvdzo9Eei99-VF_TfWEg" label="Contract_Status" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYveDo9Eei99-VF_TfWEg" label="Inventory_Status" length="3" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYveTo9Eei99-VF_TfWEg" label="Contract_Ref__No_" length="15" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvejo9Eei99-VF_TfWEg" label="CP_Ref_" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvezo9Eei99-VF_TfWEg" label="CP_Name" length="49" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvfDo9Eei99-VF_TfWEg" label="Allocated_Contract" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvfTo9Eei99-VF_TfWEg" label="Origin" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvfjo9Eei99-VF_TfWEg" label="Quality" length="29" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvfzo9Eei99-VF_TfWEg" label="Crop_Year" length="9" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvgDo9Eei99-VF_TfWEg" label="Quantity" length="18" precision="14" talendType="id_Float" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvgTo9Eei99-VF_TfWEg" label="Quantity_Unit" length="2" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvgjo9Eei99-VF_TfWEg" label="Shipment_Start_Date" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvgzo9Eei99-VF_TfWEg" label="Shipment_End_Date" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvhDo9Eei99-VF_TfWEg" label="Exchange" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvhTo9Eei99-VF_TfWEg" label="Month" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvhjo9Eei99-VF_TfWEg" label="Price" length="18" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvhzo9Eei99-VF_TfWEg" label="Price_units" length="11" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYviDo9Eei99-VF_TfWEg" label="INCO_Terms" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYviTo9Eei99-VF_TfWEg" label="Broker" length="25" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvijo9Eei99-VF_TfWEg" label="Broker_Ref_No_" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvizo9Eei99-VF_TfWEg" label="Commission" length="13" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_waYvjDo9Eei99-VF_TfWEg" label="Sample" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
