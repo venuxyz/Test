@@ -21,6 +21,7 @@
       <relatedItems xmi:id="_8_xdXDlmEei8nN0yjtc0zw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_8_xdXTlmEei8nN0yjtc0zw" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
+    <deletedFolders>process/input</deletedFolders>
     <migrationTask xmi:id="_RrQVQDlkEei8nN0yjtc0zw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_RrQVQTlkEei8nN0yjtc0zw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_RrQVQjlkEei8nN0yjtc0zw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
