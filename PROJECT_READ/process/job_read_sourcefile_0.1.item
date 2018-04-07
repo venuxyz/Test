@@ -378,7 +378,7 @@
       <elementValue elementRef="MAX_LENGTH" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Crop_Year"/>
       <elementValue elementRef="SELECTED_TYPE" value="Date"/>
-      <elementValue elementRef="DATEPATTERN" value=""/>
+      <elementValue elementRef="DATEPATTERN" value="&quot;yyyy&quot;"/>
       <elementValue elementRef="NULLABLE" value="true"/>
       <elementValue elementRef="MAX_LENGTH" value="true"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Quantity"/>
