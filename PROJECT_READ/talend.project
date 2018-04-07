@@ -21,6 +21,21 @@
       <relatedItems xmi:id="_8_xdXDlmEei8nN0yjtc0zw" id="Relational" version="Latest" type="routine"/>
       <relatedItems xmi:id="_8_xdXTlmEei8nN0yjtc0zw" id="TalendStringUtil" version="Latest" type="routine"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_EEELIDpGEei99-VF_TfWEg">
+      <baseItem xmi:id="_EEELITpGEei99-VF_TfWEg" id="_vYIdsDo8Eei99-VF_TfWEg" version="0.1" type="job"/>
+      <relatedItems xmi:id="_EEELIjpGEei99-VF_TfWEg" id="_wZ4ZIDo9Eei99-VF_TfWEg" version="Latest" type="property"/>
+      <relatedItems xmi:id="_EEELIzpGEei99-VF_TfWEg" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELJDpGEei99-VF_TfWEg" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELJTpGEei99-VF_TfWEg" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELJjpGEei99-VF_TfWEg" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELJzpGEei99-VF_TfWEg" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELKDpGEei99-VF_TfWEg" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELKTpGEei99-VF_TfWEg" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELKjpGEei99-VF_TfWEg" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELKzpGEei99-VF_TfWEg" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELLDpGEei99-VF_TfWEg" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_EEELLTpGEei99-VF_TfWEg" id="_wZ4ZIDo9Eei99-VF_TfWEg - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
     <deletedFolders>process/input</deletedFolders>
     <deletedFolders>process/job_local_machine/processed</deletedFolders>
     <deletedFolders>process/job_local_machine/unprocessd</deletedFolders>
