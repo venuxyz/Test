@@ -756,8 +756,8 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="out1">
-        <mapperTableEntries name="CUSTOMER_REFERENCE" expression="row7.CUSTOMER_REFERENCE " type="id_String" nullable="true"/>
+      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="!row7.CUSTOMER_REFERENCE .equals (&quot;null&quot;)" activateExpressionFilter="true">
+        <mapperTableEntries name="CUSTOMER_REFERENCE" expression=" row7.CUSTOMER_REFERENCE " type="id_String" nullable="true"/>
         <mapperTableEntries name="PRODUCT_NAME" expression="row7.PRODUCT_NAME " type="id_String" nullable="true"/>
         <mapperTableEntries name="ACCOUNT_NUMBER" expression="row7.ACCOUNT_NUMBER " type="id_String" nullable="true"/>
         <mapperTableEntries name="SUBSCRIPTION_REFERENCE" expression="row7.SUBSCRIPTION_REFERENCE " type="id_String" nullable="true"/>
