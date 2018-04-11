@@ -262,87 +262,87 @@
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PRODUCT_NAME"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT_NUMBER"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SUBSCRIPTION_REFERENCE"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="START_DATE"/>
       <elementValue elementRef="SELECTED_TYPE" value="Date"/>
       <elementValue elementRef="DATEPATTERN" value="&quot;yyyy-MM-dd&quot;"/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="END_DATE"/>
       <elementValue elementRef="SELECTED_TYPE" value="Date"/>
       <elementValue elementRef="DATEPATTERN" value="&quot;yyyy-MM-dd&quot;"/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ACCOUNT_NUMBER1"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TARIFF_NAME"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="PRODUCT_QUANTITY"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CUSTOMER_ORDER_NUMBER"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="SUPPLIER_ORDER_NUMBER"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="ADDRESS_SEQUENCE"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CPS_NAME"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="CONTRACT_NAME"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TAX_EXEMPTION_REFERENCE"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="TAX_EXEMPTION_TEXT"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Column16"/>
       <elementValue elementRef="SELECTED_TYPE" value="String"/>
       <elementValue elementRef="DATEPATTERN" value=""/>
       <elementValue elementRef="NULLABLE" value="true"/>
-      <elementValue elementRef="MAX_LENGTH" value="true"/>
+      <elementValue elementRef="MAX_LENGTH" value="false"/>
     </elementParameter>
     <elementParameter field="LABEL" name="NOTE_CUSTOMER" value="Please note:&#xA;(1) Nullable setting in this table is more preferential than the default schema.&#xA;(2) Length checking is base on the value of the default schema."/>
     <elementParameter field="RADIO" name="CHECK_ANOTHER" value="false"/>
