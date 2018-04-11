@@ -64,6 +64,7 @@
       <relatedItems xmi:id="_bnwDmz2WEeiivN1Xquq8cA" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_bnwDnD2WEeiivN1Xquq8cA" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_bnwDnT2WEeiivN1Xquq8cA" id="_Yqv8YD2VEeiivN1Xquq8cA - metadata" version="Latest" type="schema"/>
+      <relatedItems xmi:id="_5QAscD2XEeiivN1Xquq8cA" id="fullname" version="Latest" type="routine"/>
     </ItemsRelations>
     <deletedFolders>process/input</deletedFolders>
     <deletedFolders>process/job_local_machine/processed</deletedFolders>
