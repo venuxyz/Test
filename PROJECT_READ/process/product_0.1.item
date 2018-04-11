@@ -756,11 +756,11 @@
     <nodeData xsi:type="TalendMapper:MapperData">
       <uiProperties shellMaximized="true"/>
       <varTables sizeState="INTERMEDIATE" name="Var" minimized="true"/>
-      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="!row7.CUSTOMER_REFERENCE .equals (&quot;null&quot;)&amp;&amp;  !row7.PRODUCT_NAME .equals(&quot;null&quot;)&#xD;&#xA;&amp;&amp; !row7.ACCOUNT_NUMBER.equals(&quot;null&quot;) &amp;&amp; !row7.CUSTOMER_REFERENCE(&quot;null&quot;) " activateExpressionFilter="true">
+      <outputTables sizeState="INTERMEDIATE" name="out1" expressionFilter="!row7.CUSTOMER_REFERENCE .equals (&quot;null&quot;)&amp;&amp;  !row7.PRODUCT_NAME .equals(&quot;null&quot;)&#xD;&#xA;&amp;&amp; !row7.ACCOUNT_NUMBER.equals(&quot;null&quot;) &amp;&amp; !row7.SUBSCRIPTION_REFERENCE.equals(&quot;null&quot;) " activateExpressionFilter="true">
         <mapperTableEntries name="CUSTOMER_REFERENCE" expression=" row7.CUSTOMER_REFERENCE " type="id_String" nullable="true"/>
         <mapperTableEntries name="PRODUCT_NAME" expression="row7.PRODUCT_NAME " type="id_String" nullable="true"/>
         <mapperTableEntries name="ACCOUNT_NUMBER" expression="row7.ACCOUNT_NUMBER " type="id_String" nullable="true"/>
-        <mapperTableEntries name="SUBSCRIPTION_REFERENCE" expression="row7.CUSTOMER_REFERENCE " type="id_String" nullable="true"/>
+        <mapperTableEntries name="SUBSCRIPTION_REFERENCE" expression="row7.SUBSCRIPTION_REFERENCE " type="id_String" nullable="true"/>
         <mapperTableEntries name="START_DATE" expression="row7.START_DATE " type="id_Date" nullable="true"/>
         <mapperTableEntries name="END_DATE" expression="row7.END_DATE " type="id_Date" nullable="true"/>
         <mapperTableEntries name="ACCOUNT_NUMBER1" expression="row7.ACCOUNT_NUMBER1 " type="id_String" nullable="true"/>
