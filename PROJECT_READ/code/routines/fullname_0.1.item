@@ -19,7 +19,7 @@ package routines;
  * 5. {example} gives a example for the Function. it is optional.
  */
 public class fullname {
- public static String main(String firstname,String lastname)
+ public static String main (String firstname,String lastname)
  {      
 	String fullname=firstname+lastname;	
 	return fullname;
