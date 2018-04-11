@@ -50,6 +50,21 @@
       <relatedItems xmi:id="_6J6f2z1eEeiivN1Xquq8cA" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_6J6f3D1eEeiivN1Xquq8cA" id="_lQgPsD1YEeiivN1Xquq8cA - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
+    <ItemsRelations xmi:id="_bnwDkD2WEeiivN1Xquq8cA">
+      <baseItem xmi:id="_bnwDkT2WEeiivN1Xquq8cA" id="_tg_A4D2UEeiivN1Xquq8cA" version="0.1" type="job"/>
+      <relatedItems xmi:id="_bnwDkj2WEeiivN1Xquq8cA" id="_Yqv8YD2VEeiivN1Xquq8cA" version="Latest" type="property"/>
+      <relatedItems xmi:id="_bnwDkz2WEeiivN1Xquq8cA" id="SQLike" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDlD2WEeiivN1Xquq8cA" id="Numeric" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDlT2WEeiivN1Xquq8cA" id="Relational" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDlj2WEeiivN1Xquq8cA" id="TalendString" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDlz2WEeiivN1Xquq8cA" id="TalendStringUtil" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDmD2WEeiivN1Xquq8cA" id="DataOperation" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDmT2WEeiivN1Xquq8cA" id="StringHandling" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDmj2WEeiivN1Xquq8cA" id="TalendDataGenerator" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDmz2WEeiivN1Xquq8cA" id="TalendDate" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDnD2WEeiivN1Xquq8cA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_bnwDnT2WEeiivN1Xquq8cA" id="_Yqv8YD2VEeiivN1Xquq8cA - metadata" version="Latest" type="schema"/>
+    </ItemsRelations>
     <deletedFolders>process/input</deletedFolders>
     <deletedFolders>process/job_local_machine/processed</deletedFolders>
     <deletedFolders>process/job_local_machine/unprocessd</deletedFolders>
