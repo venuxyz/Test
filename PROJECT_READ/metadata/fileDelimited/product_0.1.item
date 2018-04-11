@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:orgomg.cwm.resource.record="http:///orgomg/cwm/resource/record.ecore">
+  <TalendMetadata:DelimitedFileConnection xmi:id="_lQg2wD1YEeiivN1Xquq8cA" name="product" dataPackage="_lQg2wT1YEeiivN1Xquq8cA" Server="Localhost 127.0.0.1" FilePath="C:/Users/Venu/Downloads/PRODUCT.txt" Encoding="US-ASCII" FieldSeparatorValue="&quot;|&quot;" RowSeparatorValue="&quot;\n&quot;" UseHeader="true" HeaderValue="1" FirstLineCaption="true" FieldSeparatorType="Custom ANSI"/>
+  <orgomg.cwm.resource.record:RecordFile xmi:id="_lQg2wT1YEeiivN1Xquq8cA" name="default" dataManager="_lQg2wD1YEeiivN1Xquq8cA">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_lQg2wj1YEeiivN1Xquq8cA" id="_SXNOcD1YEeiivN1Xquq8cA" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2wz1YEeiivN1Xquq8cA" label="CUSTOMER_REFERENCE" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2xD1YEeiivN1Xquq8cA" label="PRODUCT_NAME" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2xT1YEeiivN1Xquq8cA" label="ACCOUNT_NUMBER" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2xj1YEeiivN1Xquq8cA" label="SUBSCRIPTION_REFERENCE" length="5" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2xz1YEeiivN1Xquq8cA" label="START_DATE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2yD1YEeiivN1Xquq8cA" label="END_DATE" length="10" talendType="id_Date" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2yT1YEeiivN1Xquq8cA" label="ACCOUNT_NUMBER1" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2yj1YEeiivN1Xquq8cA" label="TARIFF_NAME" length="7" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2yz1YEeiivN1Xquq8cA" label="PRODUCT_QUANTITY" length="7" talendType="id_Integer" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2zD1YEeiivN1Xquq8cA" label="CUSTOMER_ORDER_NUMBER" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2zT1YEeiivN1Xquq8cA" label="SUPPLIER_ORDER_NUMBER" length="6" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2zj1YEeiivN1Xquq8cA" label="ADDRESS_SEQUENCE" length="4" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg2zz1YEeiivN1Xquq8cA" label="CPS_NAME" length="12" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg20D1YEeiivN1Xquq8cA" label="CONTRACT_NAME" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg20T1YEeiivN1Xquq8cA" label="TAX_EXEMPTION_REFERENCE" length="10" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg20j1YEeiivN1Xquq8cA" label="TAX_EXEMPTION_TEXT" length="8" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_lQg20z1YEeiivN1Xquq8cA" label="Column16" talendType="id_String" pattern="&quot;dd-MM-yyyy&quot;"/>
+    </ownedElement>
+  </orgomg.cwm.resource.record:RecordFile>
+</xmi:XMI>
