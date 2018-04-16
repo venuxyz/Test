@@ -22,28 +22,31 @@ import javax.swing.text.MaskFormatter;
  * 
  * 5. {example} gives a example for the Function. it is optional.
  */
+import java.util.regex.Pattern;
+
 public class zipcode1 {
-
-    /**
-     * helloExample: not return value, only print "hello" + message.
-     * 
-     * 
-     * {talendTypes} String
-     * 
-     * {Category} User Defined
-     * 
-     * {param} string("world") input: The string need to be printed.
-     * 
-     * {example} helloExemple("world") # hello world !.
-     */
-	public static void main(String[] args) throws ParseException {
-	    String[] values = new String[]{"1234","12345","123456897"};
-
-	    MaskFormatter f = new MaskFormatter("#####-####");
-	    f.setValueContainsLiteralCharacters(false);
-	    for(String value:values){
-	        System.out.println(f.valueToString(value));
-	        //System.out.println(String.format("%5s-%04s", value,value));
-	    }
-	}
+    
+    static final String regex = "^/d{5}(-/d{4})?$";
+ 
+   
+    public static void main(String args[]) {
+ 
+        String mixedZips[] = {  "50266-234A", "50266-2342", "5026A-2344",
+                                "5026A-234A", "50266", "230" };
+ 
+        int index = 0;
+        boolean isMatch = false;
+        while (index < mixedZips.length) {
+            isMatch = isAValidZipCode(mixedZips[index]);
+            System.out.println("Zip " + mixedZips[index] + " - "
+                    + (isMatch ? "Valid" : "Invalid"));
+            index++;
+        }
+ 
+    }
+     
+        public static boolean isAValidZipCode(String zip) {
+        return Pattern.matches(regex, zip);
+    }
+ 
 }
