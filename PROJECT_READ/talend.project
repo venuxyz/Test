@@ -81,7 +81,6 @@
       <relatedItems xmi:id="_-cnXbD2bEeiivN1Xquq8cA" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_-cnXbT2bEeiivN1Xquq8cA" id="_wssN4D1SEeiivN1Xquq8cA - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
-    <deletedFolders>process/input</deletedFolders>
     <deletedFolders>process/job_local_machine/processed</deletedFolders>
     <deletedFolders>process/job_local_machine/unprocessd</deletedFolders>
     <deletedFolders>process/job_local_machine/log_error_capture</deletedFolders>
