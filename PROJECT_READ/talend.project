@@ -106,6 +106,7 @@
       <relatedItems xmi:id="_zKG8ikF5EeiyG4-v15LBVA" id="TalendDataGenerator" version="Latest" type="routine"/>
       <relatedItems xmi:id="_zKG8i0F5EeiyG4-v15LBVA" id="TalendDate" version="Latest" type="routine"/>
       <relatedItems xmi:id="_zKG8jEF5EeiyG4-v15LBVA" id="Mathematical" version="Latest" type="routine"/>
+      <relatedItems xmi:id="_9-7jcEGZEeiyG4-v15LBVA" id="_QI4HEDllEei8nN0yjtc0zw" version="Latest" type="property"/>
     </ItemsRelations>
     <deletedFolders>process/job_local_machine/context</deletedFolders>
     <migrationTask xmi:id="_RrQVQDlkEei8nN0yjtc0zw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
