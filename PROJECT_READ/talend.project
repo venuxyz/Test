@@ -81,12 +81,6 @@
       <relatedItems xmi:id="_-cnXbD2bEeiivN1Xquq8cA" id="Mathematical" version="Latest" type="routine"/>
       <relatedItems xmi:id="_-cnXbT2bEeiivN1Xquq8cA" id="_wssN4D1SEeiivN1Xquq8cA - metadata" version="Latest" type="schema"/>
     </ItemsRelations>
-    <deletedFolders>process/job_local_machine/processed</deletedFolders>
-    <deletedFolders>process/job_local_machine/unprocessd</deletedFolders>
-    <deletedFolders>process/job_local_machine/log_error_capture</deletedFolders>
-    <deletedFolders>process/job_local_machine/context</deletedFolders>
-    <deletedFolders>process/job_local_machine/input</deletedFolders>
-    <deletedFolders>process/job_local_machine</deletedFolders>
     <migrationTask xmi:id="_RrQVQDlkEei8nN0yjtc0zw" id="org.talend.repository.localprovider.RemoveRoutineFolderTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_RrQVQTlkEei8nN0yjtc0zw" id="org.talend.repository.localprovider.model.migration.ChangeXmiSerialization" breaks="5.1.1" version="5.1.2" status="noimpact"/>
     <migrationTask xmi:id="_RrQVQjlkEei8nN0yjtc0zw" id="org.talend.repository.model.migration.CleanFoldersMigrationTask" breaks="5.1.1" version="5.1.2" status="noimpact"/>
