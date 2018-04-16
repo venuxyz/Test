@@ -168,7 +168,7 @@
     <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" value="100" show="false"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tFileInputDelimited_1">
-      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="25" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
       <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
@@ -227,10 +227,10 @@
     <elementParameter field="CHECK" name="TRIM_CHAR" value="true"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
     <metadata connector="FLOW" name="tOracleOutput_1">
-      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR2" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="VARCHAR2" type="id_Dynamic" originalLength="25" usefulColumn="true"/>
     </metadata>
     <metadata connector="REJECT" name="REJECT">
-      <column comment="" key="false" length="-1" name="newColumn" nullable="true" pattern="&quot;dd-MM-yyyy&quot;" precision="-1" sourceType="VARCHAR2" type="id_Dynamic" originalLength="-1" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="newColumn" nullable="true" pattern="" precision="-1" sourceType="VARCHAR2" type="id_Dynamic" originalLength="25" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorCode" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" precision="0" sourceType="VARCHAR2" type="id_String" originalLength="-1" usefulColumn="true"/>
     </metadata>
