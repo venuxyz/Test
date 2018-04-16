@@ -108,11 +108,11 @@
   <node componentName="tOracleTableList" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="128" posY="160">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tOracleTableList_1" show="false"/>
     <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
-    <elementParameter field="TEXT" name="WHERE_CLAUSE" value="&quot;TNAME  like 'emp''dept'&quot;"/>
+    <elementParameter field="TEXT" name="WHERE_CLAUSE" value="&quot;TABLE_NAME not like 'emp''dept'&quot;"/>
     <elementParameter field="TEXT" name="QUERY" value="&quot;SELECT TABLE_NAME FROM USER_TABLES WHERE (TABLE_NAME not like '%$%') ORDER BY TABLE_NAME ASC&quot;" show="false"/>
-    <elementParameter field="CLOSED_LIST" name="FETCH_FROM" value="TAB"/>
-    <elementParameter field="LABEL" name="NOTE" value="*Note: Table names are always in upper case. Example for the where clause: &quot;TNAME not like '%$%' AND (TNAME like 'S%' OR TNAME='TALEND')&quot;"/>
-    <elementParameter field="LABEL" name="NOTE1" value="*Note: Table names are always in upper case. Example for the where clause: &quot;TABLE_NAME not like '%$%' AND (TABLE_NAME like 'S%' OR TABLE_NAME='TALEND')&quot;" show="false"/>
+    <elementParameter field="CLOSED_LIST" name="FETCH_FROM" value="USER_TABLES"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Table names are always in upper case. Example for the where clause: &quot;TNAME not like '%$%' AND (TNAME like 'S%' OR TNAME='TALEND')&quot;" show="false"/>
+    <elementParameter field="LABEL" name="NOTE1" value="*Note: Table names are always in upper case. Example for the where clause: &quot;TABLE_NAME not like '%$%' AND (TABLE_NAME like 'S%' OR TABLE_NAME='TALEND')&quot;"/>
     <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
   </node>
   <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="256" posY="160">
