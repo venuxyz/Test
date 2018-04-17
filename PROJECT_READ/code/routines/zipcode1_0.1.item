@@ -1,8 +1,8 @@
 package routines;
 
 import java.text.ParseException;
-
 import javax.swing.text.MaskFormatter;
+
 
 /*
  * user specification: the function's comment should contain keys as follows: 1. write about the function's comment.but
@@ -24,12 +24,12 @@ import javax.swing.text.MaskFormatter;
  */
 import java.util.regex.Pattern;
 
+@SuppressWarnings("unused")
 public class zipcode1 {
     
     static final String regex = "^/d{5}(-/d{4})?$";
  
-   
-    public static void main(String[] args) {
+       public static void main(String[] args) {
  
         String mixedZips[] = {  "50266-234A", "50266-2342", "5026A-2344",
                                 "5026A-234A", "50266", "230" };
