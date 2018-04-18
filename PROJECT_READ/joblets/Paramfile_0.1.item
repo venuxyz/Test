@@ -2,11 +2,11 @@
 <xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties" xmlns:model="http://www.talend.com/joblet.ecore">
   <model:JobletProcess defaultContext="Default" jobType="Standard">
     <context confirmationNeeded="false" name="Default">
-      <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" type="id_String" value="system"/>
+      <contextParameter comment="" name="db_username" prompt="db_username?" promptNeeded="false" type="id_String" value=""/>
       <contextParameter comment="" name="db_password" prompt="db_password?" promptNeeded="false" type="id_Password" value=""/>
-      <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" type="id_String" value="xe"/>
-      <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" type="id_Integer" value="1521"/>
-      <contextParameter comment="" name="db_hostname" prompt="db_hostname?" promptNeeded="false" type="id_String" value="localhost"/>
+      <contextParameter comment="" name="db_database" prompt="db_database?" promptNeeded="false" type="id_String" value=""/>
+      <contextParameter comment="" name="db_port" prompt="db_port?" promptNeeded="false" type="id_Integer" value=""/>
+      <contextParameter comment="" name="db_hostname" prompt="db_hostname?" promptNeeded="false" type="id_String" value=""/>
     </context>
     <parameters>
       <elementParameter field="TEXT" name="SCREEN_OFFSET_X" value="0" show="false"/>
