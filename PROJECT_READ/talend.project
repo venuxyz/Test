@@ -188,7 +188,6 @@
       <baseItem xmi:id="_MqAF4UL8EeiO48kQSnCDdw" id="_PyAgAEL5EeiO48kQSnCDdw" version="0.1" type="job"/>
       <relatedItems xmi:id="_MqAF4kL8EeiO48kQSnCDdw" id="_ZOS-0EL6EeiO48kQSnCDdw" version="Latest" type="context"/>
       <relatedItems xmi:id="_MqAF40L8EeiO48kQSnCDdw" id="_ZOS-0EL6EeiO48kQSnCDdw" version="Latest" type="joblet"/>
-      <relatedItems xmi:id="_MqAF5EL8EeiO48kQSnCDdw" id="_QI4HEDllEei8nN0yjtc0zw" version="Latest" type="property"/>
       <relatedItems xmi:id="_MqAF5UL8EeiO48kQSnCDdw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_MqAF5kL8EeiO48kQSnCDdw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_MqAF50L8EeiO48kQSnCDdw" id="TalendString" version="Latest" type="routine"/>
