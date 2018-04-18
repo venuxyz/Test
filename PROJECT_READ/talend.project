@@ -172,7 +172,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_aRaosEL6EeiO48kQSnCDdw">
       <baseItem xmi:id="_aRaosUL6EeiO48kQSnCDdw" id="_ZOS-0EL6EeiO48kQSnCDdw" version="0.1" type="joblet"/>
-      <relatedItems xmi:id="_aRaoskL6EeiO48kQSnCDdw" id="_Cx1qwEL4EeiO48kQSnCDdw" version="Latest" type="property"/>
       <relatedItems xmi:id="_aRaos0L6EeiO48kQSnCDdw" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_aRaotEL6EeiO48kQSnCDdw" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_aRaotUL6EeiO48kQSnCDdw" id="Relational" version="Latest" type="routine"/>
