@@ -216,7 +216,6 @@
     </ItemsRelations>
     <ItemsRelations xmi:id="_IIfLwERrEeipV77qhCfWyA">
       <baseItem xmi:id="_IIfLwURrEeipV77qhCfWyA" id="_lkMoYERWEeipV77qhCfWyA" version="0.1" type="job"/>
-      <relatedItems xmi:id="_IIfLwkRrEeipV77qhCfWyA" id="_2jMJAERqEeipV77qhCfWyA" version="Latest" type="property"/>
       <relatedItems xmi:id="_IIfLw0RrEeipV77qhCfWyA" id="SQLike" version="Latest" type="routine"/>
       <relatedItems xmi:id="_IIfLxERrEeipV77qhCfWyA" id="Numeric" version="Latest" type="routine"/>
       <relatedItems xmi:id="_IIfLxURrEeipV77qhCfWyA" id="Relational" version="Latest" type="routine"/>
