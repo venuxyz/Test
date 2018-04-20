@@ -230,34 +230,34 @@
       <elementValue elementRef="QUERY" value="&quot;../Remarks/Remark&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
       <elementValue elementRef="SCHEMA_COLUMN" value="Segment"/>
-      <elementValue elementRef="QUERY" value="&quot;column&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="add1_apt"/>
       <elementValue elementRef="QUERY" value="&quot;../Segments/Segment&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="Element"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="add1_apt"/>
       <elementValue elementRef="QUERY" value="&quot;../DeliveryAddressInfo/add1_apt&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="FormOfPayment"/>
-      <elementValue elementRef="QUERY" value="&quot;column2&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="SSR"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Element"/>
       <elementValue elementRef="QUERY" value="&quot;../Elements/Element&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="StoredFare"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FormOfPayment"/>
       <elementValue elementRef="QUERY" value="&quot;../FormsOfPayment/FormOfPayment&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TicketRequest"/>
-      <elementValue elementRef="QUERY" value="&quot;column3&quot;"/>
-      <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TicketInfo"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SSR"/>
       <elementValue elementRef="QUERY" value="&quot;../SSRs/SSR&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="PhoneNumber"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="StoredFare"/>
       <elementValue elementRef="QUERY" value="&quot;../StoredFares/StoredFare&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
-      <elementValue elementRef="SCHEMA_COLUMN" value="TravelerProfileIdentifiers"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TicketRequest"/>
       <elementValue elementRef="QUERY" value="&quot;../TicketRequests/TicketRequest&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TicketInfo"/>
+      <elementValue elementRef="QUERY" value="&quot;../TicketInfos/TicketInfo&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PhoneNumber"/>
+      <elementValue elementRef="QUERY" value="&quot;../PhoneNumbers/PhoneNumber&quot;"/>
+      <elementValue elementRef="NODECHECK" value=""/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TravelerProfileIdentifiers"/>
+      <elementValue elementRef="QUERY" value="&quot;TravelerProfileIdentifiers&quot;"/>
       <elementValue elementRef="NODECHECK" value=""/>
     </elementParameter>
     <elementParameter field="TEXT" name="LIMIT" value="-1"/>
@@ -315,17 +315,17 @@
   </node>
   <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="96">
     <elementParameter field="TEXT" name="UNIQUE_NAME" value="tLogRow_1" show="false"/>
-    <elementParameter field="RADIO" name="BASIC_MODE" value="true"/>
-    <elementParameter field="RADIO" name="TABLE_PRINT" value="false"/>
+    <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
+    <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
     <elementParameter field="RADIO" name="VERTICAL" value="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE" value="true" show="false"/>
     <elementParameter field="RADIO" name="PRINT_LABEL" value="false" show="false"/>
     <elementParameter field="RADIO" name="PRINT_UNIQUE_LABEL" value="false" show="false"/>
-    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;"/>
-    <elementParameter field="CHECK" name="PRINT_HEADER" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false"/>
-    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false"/>
-    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;|&quot;" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_HEADER" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_UNIQUE_NAME" value="false" show="false"/>
+    <elementParameter field="CHECK" name="PRINT_COLNAMES" value="false" show="false"/>
+    <elementParameter field="CHECK" name="USE_FIXED_LENGTH" value="false" show="false"/>
     <elementParameter field="TABLE" name="LENGTHS" show="false">
       <elementValue elementRef="SCHEMA_COLUMN" value="Traveler"/>
       <elementValue elementRef="LENGTH" value="10"/>
